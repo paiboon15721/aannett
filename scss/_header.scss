@@ -8,14 +8,26 @@
   text-align: center;
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 3.5rem;
+    }
   }
 
   .social-icon {
-    position: absolute;
-    margin: 4rem;
-    top: 0;
-    right: 0;
+    margin: 2rem;
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin: 3rem;
+    }
 
     .fab {
       font-size: 1.5rem;
@@ -25,8 +37,11 @@
 
   .navbar {
     padding: 0 1rem;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
+
+    @include media-breakpoint-up(lg) {
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+    }
 
     .nav-item {
       margin: 0 2rem;
@@ -39,5 +54,6 @@
 
   img {
     width: 100%;
+    min-height: 500px;
   }
 }
