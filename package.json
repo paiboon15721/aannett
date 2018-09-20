@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
-    "deploy": "node index.js"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
