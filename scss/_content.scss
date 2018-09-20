@@ -3,15 +3,21 @@
     letter-spacing: 0.5rem;
   }
 
-  .img-thumbnail {
-    padding: 0;
-    border: 0;
-  }
-
   .blog-items-container {
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
+
+    .img-thumbnail {
+      padding: 0;
+      border: 0;
+      width: 100%;
+
+      @include media-breakpoint-up(md) {
+        object-fit: cover;
+        height: 15rem;
+      }
+    }
 
     .post-category,
     .post-date,
@@ -28,6 +34,13 @@
     .post-date,
     .post-excerpt {
       text-transform: none;
+      text-align: center;
+    }
+  }
+
+  .blog-items-container:nth-child(3n + 2) {
+    .img-thumbnail {
+      height: auto;
     }
   }
 }
