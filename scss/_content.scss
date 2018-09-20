@@ -12,9 +12,14 @@
       padding: 0;
       border: 0;
       width: 100%;
+      object-fit: cover;
+      object-position: 0% 10%;
 
       @include media-breakpoint-up(md) {
-        object-fit: cover;
+        height: 20rem;
+      }
+
+      @include media-breakpoint-up(sm) {
         height: 15rem;
       }
     }

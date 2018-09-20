@@ -8,11 +8,14 @@
   text-align: center;
 
   h1 {
+    font-weight: 300;
     font-size: 1.5rem;
+    letter-spacing: 0.5rem;
     @include media-breakpoint-up(md) {
       font-size: 2rem;
     }
     @include media-breakpoint-up(lg) {
+      letter-spacing: 1rem;
       font-size: 3.5rem;
     }
   }
