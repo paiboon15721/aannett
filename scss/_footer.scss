@@ -45,10 +45,22 @@ footer {
   }
 
   .img-slider {
+    padding: 2rem 0;
+
     img {
-      width: 20rem;
-      height: 25rem;
       object-fit: cover;
+      height: 10rem;
+      @include media-breakpoint-up(sm) {
+        height: 15rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        height: 20rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        height: 25rem;
+      }
     }
   }
 
