@@ -44,6 +44,14 @@ footer {
     }
   }
 
+  .img-slider {
+    img {
+      width: 20rem;
+      height: 25rem;
+      object-fit: cover;
+    }
+  }
+
   .copyright {
     background-color: $primary;
     color: $white;
