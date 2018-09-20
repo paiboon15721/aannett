@@ -53,9 +53,13 @@
 }
 
 .carousel-inner {
-  max-height: 1000px;
+  max-height: 400px;
+  @include media-breakpoint-up(md) {
+    max-height: 1000px;
+  }
 
   img {
+    object-fit: cover;
     width: 100%;
     min-height: 400px;
   }
