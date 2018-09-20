@@ -144,7 +144,7 @@
     </div>
 
     <!-- Pagination -->
-    <nav class="d-flex justify-content-center my-5">
+    <nav class="d-flex justify-content-center my-5 flex-wrap">
       <ul class="pagination">
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Previous">
@@ -155,8 +155,6 @@
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
         <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">4</a></li>
-        <li class="page-item"><a class="page-link" href="#">5</a></li>
         <li class="page-item"><a class="page-link" href="#">...</a></li>
         <li class="page-item"><a class="page-link" href="#">50</a></li>
         <li class="page-item">
@@ -204,6 +202,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script>
     $('.img-slider').slick({
+      arrows: false,
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
