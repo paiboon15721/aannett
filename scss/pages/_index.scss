@@ -1,0 +1,7 @@
+.section-content-index {
+  .blog-item:nth-child(3n + 2) {
+    .img-thumbnail {
+      height: auto;
+    }
+  }
+}

@@ -7,6 +7,12 @@
 
 @import 'base/typography';
 
-@import 'layout/content';
+@import 'components/blog-item';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/pagination';
+
 @import 'layout/footer';
 @import 'layout/header';
+
+@import 'pages/index';

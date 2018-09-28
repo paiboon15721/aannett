@@ -7,19 +7,6 @@
   z-index: 999;
   text-align: center;
 
-  h1 {
-    font-weight: 300;
-    font-size: 1.5rem;
-    letter-spacing: 0.5rem;
-    @include media-breakpoint-up(md) {
-      font-size: 2rem;
-    }
-    @include media-breakpoint-up(lg) {
-      letter-spacing: 1rem;
-      font-size: 3.5rem;
-    }
-  }
-
   .social-icon {
     margin: 2rem;
     @include media-breakpoint-up(md) {
@@ -35,19 +22,6 @@
     .fab {
       font-size: 1.5rem;
       margin: 0 0.5rem;
-    }
-  }
-
-  .navbar {
-    padding: 0 1rem;
-
-    @include media-breakpoint-up(lg) {
-      border-top: 2px solid;
-      border-bottom: 2px solid;
-    }
-
-    .nav-item {
-      margin: 0 2rem;
     }
   }
 }

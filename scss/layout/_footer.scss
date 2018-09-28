@@ -2,14 +2,6 @@ footer {
   text-align: center;
   text-transform: none;
 
-  hr {
-    border: none;
-    height: 0.05rem;
-    background-color: #333;
-    color: #333;
-    width: 90%;
-  }
-
   .social-icon {
     display: flex;
     justify-content: space-around;
@@ -39,12 +31,7 @@ footer {
     }
   }
 
-  h2 {
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 0.8rem;
-    margin: 2rem 0;
-
+  h1 {
     @include media-breakpoint-up(md) {
       font-size: 3rem;
     }
