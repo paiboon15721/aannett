@@ -1,0 +1,24 @@
+.section-content-lifestyle {
+  .carousel-inner {
+    img {
+      object-fit: cover;
+      object-position: 0 10%;
+      margin: 0 auto;
+      max-height: 400px;
+      width: 100%;
+
+      @include media-breakpoint-up(md) {
+        width: 60%;
+      }
+    }
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #000;
+    font-size: 3rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 6rem;
+    }
+  }
+}
