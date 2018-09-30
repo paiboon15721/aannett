@@ -9,10 +9,7 @@
     width: 100%;
     object-fit: cover;
     object-position: 0% 10%;
-
-    @include media-breakpoint-up(md) {
-      height: 25rem;
-    }
+    height: 15rem;
 
     @include media-breakpoint-up(sm) {
       height: 20rem;
@@ -22,7 +19,11 @@
   .post-category,
   .post-date,
   .btn {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
+
+    @include media-breakpoint-up(sm) {
+      margin: 2rem 0;
+    }
     font-size: 0.7rem;
   }
 

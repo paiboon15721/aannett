@@ -8,12 +8,15 @@
 @import 'base/typography';
 
 @import 'components/blog-item';
+@import 'components/blog-item-main';
 @import 'components/button';
 @import 'components/navbar';
 @import 'components/pagination';
+@import 'components/video-list';
 
 @import 'layout/footer';
 @import 'layout/header';
 
 @import 'pages/index';
 @import 'pages/howto';
+@import 'pages/lifestyle';

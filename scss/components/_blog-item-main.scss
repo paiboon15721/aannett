@@ -1,0 +1,25 @@
+.blog-item-main {
+  align-items: flex-start;
+  .blog-info {
+    margin: 1.5rem 0;
+
+    @include media-breakpoint-up(sm) {
+      margin: 2rem 0;
+    }
+    .post-category {
+      margin-right: 2rem;
+
+      @include media-breakpoint-up(sm) {
+        margin-right: 3rem 0;
+      }
+    }
+  }
+
+  .post-excerpt {
+    text-align: left;
+  }
+
+  .btn {
+    align-self: center;
+  }
+}
